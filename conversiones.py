@@ -7,12 +7,12 @@ def conversion_binario(base, numero):
     residuos = []
     if(base == 2):
         cociente = numero // base 
-        print(cociente)
+        #print(cociente)
         residuos.append(numero % base) 
         while(cociente != 0):
             numero = cociente 
             cociente = numero // base 
-            print(cociente)
+            #print(cociente)
             residuos.append(numero % base)
         residuos.reverse() 
         print(residuos)
